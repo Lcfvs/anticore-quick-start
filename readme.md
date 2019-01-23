@@ -8,14 +8,18 @@ Create your own [anticore](https://github.com/Lcfvs/anticore) based project to b
 * Install this package **into your localhost directory**
   * On UNIX systems:
   ```shell
-  project-dir=/var/www/html/project-name
-  $ npm i -D anticore-quick-start --prefix $project-dir && cd $project-dir && npm run build
+  $ cd /var/www/html/project-name
   ```
   * On Windows systems:
   ```cmd
-  set project-dir=C:\wamp\www\project-name
-  npm i -D anticore-quick-start --prefix %project-dir% && cd %project-dir% && npm run build
+  cd C:\wamp\www\project-name
   ```
+* Install it
+```shell
+$ git clone https://github.com/Lcfvs/anticore-quick-start.git .
+$ npm i -D
+$ npm run build
+```
 * Open your browser on your project index [http://localhost/project-name](http://localhost/project-name)
 * Enjoy!
 

@@ -1,6 +1,6 @@
 {
   "name": "anticore-quick-start",
-  "version": "0.9.3",
+  "version": "1.0.0",
   "description": "Create your own anticore based project to build your app/site in seconds!",
   "repository": "https://github.com/Lcfvs/anticore-quick-start",
   "main": "./assets/dev/index.js",
