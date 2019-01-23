@@ -18,7 +18,7 @@ Create your own [anticore](https://github.com/Lcfvs/anticore) based project to b
   ```cmd
     project-dir=C:\wamp\www\project-name
     git clone https://github.com/Lcfvs/anticore-quick-start.git %project-dir%
-    cd %project-dir=%
+    cd %project-dir%
     npm install -D
     npm run build
   ```
