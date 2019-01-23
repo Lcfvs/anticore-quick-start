@@ -1,0 +1,19 @@
+{
+  "name": "anticore-quick-start",
+  "version": "0.9.0",
+  "description": "Create your own anticore based project to build your app/site in seconds!",
+  "repository": "https://github.com/Lcfvs/anticore-quick-start",
+  "main": "./assets/dev/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack-cli --mode production ./assets/js/dev/index.js --output ./assets/js/dist/app.min.js",
+    "dev": "node_modules/.bin/webpack-cli --mode development ./assets/js/dev/index.js --output ./assets/js/dist/app.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lcf.vs <michael.rouges@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "anticore": "^2.5.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
