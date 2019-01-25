@@ -31,13 +31,16 @@ Create a `./assets/js/dev/test.md.js`
 
 ```js
 import { anticore } from 'anticore'
+import { onClick } from 'anticore/dom/emitter/on/onClick'
 import { one } from 'anticore/dom/query/one'
-import { replace } from 'anticore/dom/tree/replace'
+
+function changeColor (event) {
+  event.target.style.color = 'red'
+}
 
 // create a middleware to be applied on each element matching the `main.test` selector
-anticore.on('main.test', function (element, next, loaded) {
-  // replace the current main by the new one
-  loaded && replace(element, one('main'))
+anticore.on('main.test', function (element, next) {
+  onClick(element, changeColor)
   next() 
 })
 ```
@@ -48,8 +51,13 @@ Import your middleware into your `./assets/js/dev/index.js`
 
 ```js
 import {anticore} from 'anticore'
+
+// Import your own middlewares here
+import './default.md.js'
 import './test.md.js'
 
+// Let the following lines at the end of this file
+import 'anticore/middleware/main/mono'
 anticore.defaults().populate()
 ```
 
@@ -65,7 +73,10 @@ $ npm run build
 Create a file into your project, for example `./fragments/test.html`
 
 ```html
-<main class="test">This is the test content</main>
+<main class="test">
+  <h1>Test title</h1>
+  <p>This is the test content</p>
+</main>
 ```
 
 ## Link it into your page
