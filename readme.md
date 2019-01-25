@@ -35,7 +35,7 @@ import { onClick } from 'anticore/dom/emitter/on/onClick'
 import { one } from 'anticore/dom/query/one'
 
 function changeColor (event) {
-  event.target.style.backgroundColor = '#ccc'
+  one('h1', event.target).style.backgroundColor = '#ccc'
 }
 
 // create a middleware to be applied on each element matching the `main.test` selector
