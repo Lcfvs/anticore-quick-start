@@ -12,7 +12,8 @@ main > section {
     background: rgba(204, 204, 255, 1);
 }
 
-body > header > ol > li > a {
+body > header > ol > li > a,
+body > nav > a {
     color: rgba(245, 245, 255, 1);
 }
 
