@@ -11,9 +11,10 @@ body > nav > a {
     background: rgba(0, 0, 34, 1);
 }
 
+body > header,
 body > header > ol > li > a,
 body > nav > a {
-    color: rgba(245, 245, 255, 1);
+    color: rgba(245, 245, 255, .8);
 }
 
 body > header > ol > li > a + ol,
