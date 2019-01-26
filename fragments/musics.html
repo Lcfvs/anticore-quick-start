@@ -1,4 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Musics | anticore demo</title>
+    <base href="../" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.9/css-ui.min.css" media="screen" rel="stylesheet" />
+    <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.9/components/menu/mini.min.css" media="screen" rel="stylesheet" />
+    <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.9/components/header/popdown.min.css" media="screen" rel="stylesheet" />
+    <link href="assets/css/style.css" media="screen" rel="stylesheet" />
+    <link href="assets/css/spinner.css" media="screen" rel="stylesheet" />
+    <link href="assets/css/browserstack.css" media="screen" rel="stylesheet" />
+</head>
+<body>
+<a href="https://github.com/Lcfvs/anticore-quick-start" target="_blank"><img style="position: absolute; top: 3em; right: 0; border: 0;z-index: 1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<header>
+    <h1>anticore demo</h1>
+    <!--googleoff: all-->
+    <ol>
+        <li>
+            <a aria-label="Logout" href="#logout" role="button" tabindex="99996"></a>
+        </li>
+        <li>
+            <a aria-label="Open messages" href="javascript:" role="button" tabindex="99997"></a>
+            <ol>
+                <li><a href="#message-1">New message (1)</a></li>
+                <li><a href="#message-2">New message (2)</a></li>
+                <li><a href="#message-3">New message (3)</a></li>
+                <li><a href="#message-4">New message (4)</a></li>
+            </ol>
+            <p>Nothing to show</p>
+            <a aria-label="Close messages" href="javascript:" role="button" tabindex="-2"></a>
+        </li>
+        <li>
+            <a aria-label="Open friends" href="javascript:" role="button" tabindex="99998"></a>
+            <p>Nothing to show</p>
+            <a aria-label="Close friends" href="javascript:" role="button" tabindex="-3"></a>
+        </li>
+    </ol>
+    <!--googleon: all-->
+</header>
+<nav>
+    <!--googleoff: anchor-->
+    <a aria-label="Open menu" href="javascript:" role="button" tabindex="1">☰</a>
+    <a aria-label="Close menu" href="javascript:" role="button" tabindex="-1"></a>
+    <!--googleon: anchor-->
+    <ol>
+        <li><a class="home" href="./">Home</a></li>
+        <li><a class="account" href="./fragments/account.html">Account</a></li>
+        <li><a class="musics" href="./fragments/musics.html">Musics</a></li>
+        <li><a class="files" href="./fragments/files.html">Files</a></li>
+        <li><a class="books current" href="./fragments/books.html">Books</a></li>
+    </ol>
+</nav>
 <main>
     <h1>Musics</h1>
     <p>This is the musics content</p>
 </main>
+<footer>
+    <a href="https://www.browserstack.com">Sponsored by <img alt="Browserstack logo" src="assets/img/Browserstack-logo.svg"></a>
+</footer>
+<script defer src="assets/js/dist/app.min.js"></script>
+</body>
+</html>
