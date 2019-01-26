@@ -32,26 +32,8 @@ main > h1 {
     text-align: center;
 }
 
-main > section > h1 {
-    font-weight: bold;
+main > p {
     text-align: center;
-    background: rgba(255, 255, 255, .8);
-    padding: 1em 0;
-}
-
-main > section ol li {
-    background: rgba(255, 255, 255, .3);
-    margin-top: 1em;
-    padding: 1em 0;
-    text-align: center;
-}
-
-main > section a {
-    color: rgba(0, 0, 255, .8);
-}
-
-main > section a:hover {
-    color: rgba(0, 100, 255, .8);
 }
 
 body > nav ol:first-of-type {
