@@ -4,33 +4,35 @@ Create your own [anticore](https://github.com/Lcfvs/anticore) based project to b
 
 ## How to install it?
 
-<ol>
-    <li>Be sure to have **node.js** installed on your machine or install it: [node.js](https://nodejs.org/en/download/)</li>
-    <li>Install this package **into your localhost directory**
-        <details>
-            <summary>On UNIX systems:</summary>
-            ```shell
-            $ project-dir=/var/www/html/project-name
-            $ git clone https://github.com/Lcfvs/anticore-quick-start.git $project-dir
-            $ cd $project-dir
-            $ npm i -D
-            $ npm run build
-            ```
-        </details>
-        <details>
-            <summary>On Windows systems:</summary>
-            ```cmd
-            project-dir=C:\wamp\www\project-name
-            git clone https://github.com/Lcfvs/anticore-quick-start.git %project-dir%
-            cd %project-dir%
-            npm install -D
-            npm run build
-            ```
-        </details>
-    </li>
-    <li>Open your browser on your project index [http://localhost/project-name](http://localhost/project-name)</li>
-    <li>Enjoy!</li>
-</ol>
+<ul>
+ <li>Be sure to have **node.js** installed on your machine or install it: [node.js](https://nodejs.org/en/download/)</li>
+ <li>Install this package **into your localhost directory**
+  <details>
+   <summary>On UNIX systems:</summary>
+
+   ```shell
+   $ project-dir=/var/www/html/project-name
+   $ git clone https://github.com/Lcfvs/anticore-quick-start.git $project-dir
+   $ cd $project-dir
+   $ npm i -D
+   $ npm run build
+   ```
+   </details>
+   <details>
+    <summary>On Windows systems:</summary>
+
+    ```cmd
+    project-dir=C:\wamp\www\project-name
+    git clone https://github.com/Lcfvs/anticore-quick-start.git %project-dir%
+    cd %project-dir%
+    npm install -D
+    npm run build
+    ```
+   </details>
+  </li>
+  <li>Open your browser on your project index [http://localhost/project-name](http://localhost/project-name)</li>
+  <li>Enjoy!</li>
+</ul>
 
 ## Make your first middleware
 
