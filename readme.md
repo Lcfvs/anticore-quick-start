@@ -8,7 +8,7 @@ Create your own [anticore](https://github.com/Lcfvs/anticore) based project to b
     <li>Be sure to have **node.js** installed on your machine or install it: [node.js](https://nodejs.org/en/download/)</li>
     <li>Install this package **into your localhost directory**
         <details>
-            <summary>* On UNIX systems:</summary>
+            <summary>On UNIX systems:</summary>
             ```shell
             $ project-dir=/var/www/html/project-name
             $ git clone https://github.com/Lcfvs/anticore-quick-start.git $project-dir
@@ -18,7 +18,7 @@ Create your own [anticore](https://github.com/Lcfvs/anticore) based project to b
             ```
         </details>
         <details>
-            <summary>* On Windows systems:</summary>
+            <summary>On Windows systems:</summary>
             ```cmd
             project-dir=C:\wamp\www\project-name
             git clone https://github.com/Lcfvs/anticore-quick-start.git %project-dir%
