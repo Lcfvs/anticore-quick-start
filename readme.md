@@ -6,21 +6,23 @@ Create your own [anticore](https://github.com/Lcfvs/anticore) based project to b
 
 * Be sure to have **node.js** installed on your machine or install it: [node.js](https://nodejs.org/en/download/)
 * Install this package **into your localhost directory**
-  * On UNIX systems:
+
+  __On UNIX system__
   ```shell
-    $ project-dir=/var/www/html/project-name
-    $ git clone https://github.com/Lcfvs/anticore-quick-start.git $project-dir
-    $ cd $project-dir
-    $ npm i -D
-    $ npm run build
+  $ project-dir=/var/www/html/project-name
+  $ git clone https://github.com/Lcfvs/anticore-quick-start.git $project-dir
+  $ cd $project-dir
+  $ npm i -D
+  $ npm run build
   ```
-  * On Windows systems:
+  
+  __On Windows system__
   ```cmd
-    project-dir=C:\wamp\www\project-name
-    git clone https://github.com/Lcfvs/anticore-quick-start.git %project-dir%
-    cd %project-dir%
-    npm install -D
-    npm run build
+  project-dir=C:\wamp\www\project-name
+  git clone https://github.com/Lcfvs/anticore-quick-start.git %project-dir%
+  cd %project-dir%
+  npm install -D
+  npm run build
   ```
 * Open your browser on your project index [http://localhost/project-name](http://localhost/project-name)
 * Enjoy!
