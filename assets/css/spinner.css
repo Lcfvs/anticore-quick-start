@@ -10,10 +10,11 @@
   border-bottom: .2em dotted rgba(255, 255, 255, .3);
   border-right: .2em solid transparent;
   animation: fetching .8s infinite linear;
-  margin: -2.4em 0 1em .5em;
+  margin: -2.5em 0 .5em .5em;
   width: 0;
   display: block;
   padding: .8em;
+  overflow: hidden;
 }
 
 @keyframes fetching {
