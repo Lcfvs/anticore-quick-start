@@ -1,5 +1,5 @@
 {
-  "name": "anticore-quick-start",
+  "name": "anticore-quick-start-demo",
   "version": "1.1.4",
   "description": "Create your own anticore based project to build your app/site in seconds!",
   "repository": "https://github.com/Lcfvs/anticore-quick-start",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lcf.vs <michael.rouges@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "anticore": "^2.24.1",
     "webpack": "^4.28.4",
