@@ -6,15 +6,24 @@ body {
     background: rgba(245, 245, 255, 1);
 }
 
+body > header {
+    box-sizing: content-box;
+}
+
 body > header,
-body > nav > a {
+body > nav > a,
+body > nav > ol:first-of-type {
     background: rgba(0, 0, 34, 1);
 }
 
 body > header > h1,
 body > header > ol > li > a,
 body > nav > a {
-    color: rgba(245, 245, 255, .8);
+    color: rgba(245, 245, 255, .7);
+}
+
+body > header > ol > li > a:not(:focus) ~ a {
+    color: transparent
 }
 
 body > header > ol > li > a + ol,
@@ -28,21 +37,17 @@ body > header > ol > li > ol > li > a {
     padding: 0 .5em;
 }
 
-main > h1 {
-    font-size: 2em;
-    text-align: center;
+body > header > ol > li > a:not(:focus) + ol:not(:empty) ~ a::after {
+    background: rgba(255, 0, 0, .8);
 }
 
-main > p {
-    text-align: center;
-}
-
-body > nav ol:first-of-type {
-    background: rgba(0, 0, 34, 1);
-}
-
+body > header,
 body > nav > ol:first-of-type > li {
     border-bottom: .063em solid rgba(255, 255, 255, .3);
+}
+
+body > nav {
+    margin-top: 3.063em;
 }
 
 body > nav > ol:first-of-type a {
@@ -53,9 +58,11 @@ body > nav > ol:first-of-type a.current {
     color: rgba(91, 192, 190, 1);
 }
 
-@media screen
-and (min-width: 50em) {
-    main > section {
-        width: 20em;
-    }
+main > h1 {
+    font-size: 2em;
+}
+
+main > h1,
+main > p {
+    text-align: center;
 }
