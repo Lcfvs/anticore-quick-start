@@ -12,7 +12,7 @@
   "author": "lcf.vs <michael.rouges@gmail.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "anticore": "^2.24.0",
+    "anticore": "^2.24.1",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   }
