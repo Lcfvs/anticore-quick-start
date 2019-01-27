@@ -72,7 +72,7 @@ $ npm run build
 
 ## Create the content
 
-Create a file into your project, for example `./fragments/test.html`
+Create a file into your project, for example `./pages/test.html`
 
 ```html
 <main class="test">
@@ -84,6 +84,6 @@ Create a file into your project, for example `./fragments/test.html`
 ## Link it into your page
 
 ```html
-<a href="./fragments/test.html">Load the test content</a>
+<a href="./pages/test.html">Load the test content</a>
 ```
 
