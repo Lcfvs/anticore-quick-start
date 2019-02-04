@@ -1,5 +1,6 @@
 .fetching {
   pointer-events: none;
+  overflow: hidden;
 }
 
 .fetching::after {
