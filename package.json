@@ -1,6 +1,6 @@
 {
   "name": "anticore-quick-start",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Create your own anticore based project to build your app/site in seconds!",
   "repository": "https://github.com/Lcfvs/anticore-quick-start",
   "main": "./assets/dev/index.js",
@@ -12,7 +12,7 @@
   "author": "lcf.vs <michael.rouges@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "anticore": "^2.24.2",
+    "anticore": "^2.24.5",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   }
